@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 
 @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
-//@ImportResource("classpath:/pu.xml")
 public class App {
     private static Logger LOG = LoggerFactory.getLogger(App.class);
 
